@@ -132,17 +132,16 @@ const CONFIG = {
 // --------------------------------------------------------------------------
 
 const FIREBASE = {
-  config: null,
-  // config: {
-  //   apiKey: "AIza....................",
-  //   authDomain: "your-project.firebaseapp.com",
-  //   databaseURL: "https://your-project-default-rtdb.firebaseio.com",
-  //   projectId: "your-project",
-  //   storageBucket: "your-project.appspot.com",
-  //   messagingSenderId: "1234567890",
-  //   appId: "1:1234567890:web:abcdef123456",
-  // },
-  room: "japan-2026-family",   // ← make this long and unguessable!
+  config: {
+    apiKey: "AIzaSyC4rRHaOH91XaJ6vgjNlDNc8yy9PqL8KJQ",
+    authDomain: "japan-trip-3becc.firebaseapp.com",
+    databaseURL: "https://japan-trip-3becc-default-rtdb.asia-southeast1.firebasedatabase.app",
+    projectId: "japan-trip-3becc",
+    storageBucket: "japan-trip-3becc.firebasestorage.app",
+    messagingSenderId: "726129897062",
+    appId: "1:726129897062:web:0209bf349e527c5f9b07a7",
+  },
+  room: "osaka-matar-6922",
 };
 
 const STORAGE = {
